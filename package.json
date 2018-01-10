@@ -11,8 +11,6 @@
     "typescript": "^2.6.2"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "autod-egg": "^1.0.0",
     "egg-bin": "^4.3.5",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.13.0",
@@ -23,7 +21,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "clean": "rimraf app/**/*.{js,map} test/**/*.{js,map} config/**/*.{js,map}",
+    "clean": "rimraf app/**/*.{js,map} app/*.{js,map} test/**/*.{js,map} config/**/*.{js,map}",
     "tsc": "tsc -p tsconfig.json",
     "tsc:w": "tsc -p tsconfig.json -w",
     "start": "egg-scripts start --daemon",
