@@ -27,6 +27,7 @@
     "test/**/*.ts"
   ],
   "exclude": [
+    "node_modules",
     "app/public",
     "app/views"
   ]
